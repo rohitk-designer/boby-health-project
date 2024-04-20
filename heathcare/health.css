@@ -1,0 +1,137 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    background:rgba(0,0,0,0.7)url(./health-img/healthcare-1.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+}
+.content{
+    align-self:center;
+    width:27rem;
+    height:29rem;
+    border:2px solid white;
+    background:rgba(rgb(201, 34, 34),rgb(33, 134, 33),rgb(36, 36, 129),0.4);
+    box-shadow:0px 0px 5px 5px blanchedalmond;
+    
+    border-radius:20px;
+    
+}
+.container .content h1{
+    text-align:center;
+   color:white;
+    font-size:2rem;
+    margin:2rem;
+
+}
+.container .content ul{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+
+.container .content ul li{
+    list-style:none;
+    margin:0.8rem;
+
+}
+.container .content ul li input{
+    width:20rem;
+    height:2.6rem;
+    background:rgba(250, 247, 247, 0.4);
+    border:0.25rem solid white;
+    border-radius:1.25rem;
+    cursor: pointer;
+    
+    
+
+}
+.container .content ul li input::placeholder{
+    color:rgb(87, 82, 82);
+    padding:0.30rem;
+    font-size:1rem;
+}
+.container .content ul li input[type="text"]{
+    font-size:1rem;
+    padding-left:0.30rem;
+    margin-left:0.20rem;
+}
+.container .content .remember{
+   display: flex;
+   justify-content: space-evenly;
+   font-size:1.1rem;
+   color:rgba(255, 255, 255, 0.955);
+}
+.container .content .remember input[type="checkbox"]{
+    width:2rem;
+}
+.container .content .remember label:hover{
+    color:blue;
+    font-weight: bold;
+}
+.container .content .log  button{
+    width:20rem;
+    height:2.6rem; 
+    margin:1.2rem 3rem;
+    border-radius: 1.25rem;
+    border:0.25rem solid white;
+    background-color: white;
+    cursor: pointer;
+}
+.container .content .log a{
+    color:black;
+    font-weight:900;
+    text-decoration: none;
+    font-size:1rem;
+}
+
+.container .content .log  button:hover{
+    background:grey;
+    border-color:grey;
+}
+.container .content .log  button:hover a{
+    color:blue;
+}
+.container .content .resi button{
+    width:8rem;
+    height:2rem; 
+    margin:1.2rem 3rem;
+    border-radius:0.40rem;
+    border:0.25rem solid  rgb(237, 234, 234);;
+    background-color: rgb(232, 226, 226);
+    cursor: pointer;
+}
+.container .content .resi a{
+    color:rgb(131, 124, 124);
+    font-weight:900;
+    text-decoration: none;
+    font-size:1rem;
+}
+.container .content .resi button:hover{
+    background:white;
+
+}
+.container .content .resi button:hover a{
+    color:rgb(65, 65, 172);
+}
+
+
+
+
+
+

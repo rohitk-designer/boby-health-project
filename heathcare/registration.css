@@ -1,0 +1,84 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+
+}
+.header{
+    width:100vw;
+    height:100vh;
+
+}
+.header .content{
+    display:flex;
+    height:100vh;
+    justify-content:space-between;
+
+    
+
+}
+.header .content .content-1{
+    background-image: url(./health-img/background-img.jpg);
+    width:33%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x:left;
+}
+.header .content .content-2{
+padding:5rem 0.9rem;
+width:34%;
+background: linear-gradient(to bottom,rgb(229, 235, 235) ,rgb(101, 166, 166),rgb(204, 213, 213));
+   
+}
+.header .content .content-2 table label{
+    
+    font-size:1.4rem;
+    text-transform: capitalize ;
+
+}
+
+.header .content .content-2 table input{
+    font-size:1rem;
+    cursor: pointer;
+    padding:0.22rem;
+    border-radius: 0.65rem;
+    border:white;
+}
+header .content .content-2 table tr,td{
+    padding:0.6rem 0.2rem;
+
+}
+
+.header .content .content-3{
+    background-image: url(./health-img/background-4.jpg);
+    width:33%;
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x:left;
+    
+    
+}
+.header .content .content-2 h2{
+    text-align:center;
+    text-transform:capitalize ;
+    line-height:3rem;
+    color:aliceblue;
+    letter-spacing: 2px;
+    font-size:1.7rem;
+}
+.header .content .content-2 table button{
+    font-size:1rem;
+    padding:0.4rem  0.8rem;
+    border-radius:0.4rem;
+    border:none;
+    background-color: rgb(190, 179, 179);
+    cursor: pointer;
+    letter-spacing: 1px;;
+}
+.header .content .content-2 table button:hover{
+    background:white;
+    color:blue;
+}
+
+
